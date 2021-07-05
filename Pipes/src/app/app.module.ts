@@ -8,6 +8,7 @@ import LocalFr from '@angular/common/locales/fr'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 registerLocaleData(LocalEs)
 registerLocaleData(LocalFr)
@@ -15,7 +16,8 @@ registerLocaleData(LocalFr)
 @NgModule({
   declarations: [
     AppComponent,
-    CapitalizadoPipe
+    CapitalizadoPipe,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
