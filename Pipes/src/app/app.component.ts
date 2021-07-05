@@ -40,4 +40,6 @@ export class AppComponent {
 
   idioma: string = 'en'
 
+  videoUrl: string = 'https://www.youtube.com/embed/8CaGROIixAQ'
+
 }
