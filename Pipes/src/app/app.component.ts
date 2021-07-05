@@ -36,4 +36,6 @@ export class AppComponent {
 
   fecha = new Date()
 
+  idioma: string = 'en'
+
 }
