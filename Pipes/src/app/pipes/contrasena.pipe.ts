@@ -5,8 +5,8 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class ContrasenaPipe implements PipeTransform {
 
-  transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+  transform(value: string, mostrar: boolean = true): string {
+    return (mostrar) ? '*'.repeat( value.length) : value ;
   }
 
 }
