@@ -7,13 +7,15 @@ import LocalFr from '@angular/common/locales/fr'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CapitalizadoPipe } from './pipes/capitalizado.pipe';
 
 registerLocaleData(LocalEs)
 registerLocaleData(LocalFr)
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CapitalizadoPipe
   ],
   imports: [
     BrowserModule,
