@@ -102,6 +102,17 @@
         <td> date:'short' </td>
         <td> {{fecha | date:'short' }} </td>
       </tr>
+      <tr>
+        <td> {{fecha}} </td>
+        <td> date:'MMMM - dd':'':'{{idioma}}'
+          <br>
+          <button (click)="idioma='es'" class="button btn btn-primary">Español</button>
+          <button (click)="idioma='en'" class="button btn btn-secondary">Inglés</button>
+          <button (click)="idioma='fr'" class="button btn btn-success">Francés</button>
+        </td>
+        <td> {{fecha | date:'MMMM - dd':'':idioma }} </td>
+      </tr>
+
     </tbody>
   </table>
 
