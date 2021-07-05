@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'Pipes';
 
-  nombre = "Daniel"
+  nombre = "Linterna Verde"
 
   nombre2 : string = "Maritza Salazar"
 
@@ -41,5 +41,8 @@ export class AppComponent {
   idioma: string = 'en'
 
   videoUrl: string = 'https://www.youtube.com/embed/8CaGROIixAQ'
+
+  activar: boolean = true
+
 
 }
